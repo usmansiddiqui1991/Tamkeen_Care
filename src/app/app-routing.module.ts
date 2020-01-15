@@ -8,6 +8,10 @@ const routes: Routes = [
     path: 'sc-welcome',
     loadChildren: () => import('./sc-welcome/sc-welcome.module').then( m => m.ScWelcomePageModule)
   },
+  {
+    path: 'sc-sliders',
+    loadChildren: () => import('./sc-sliders/sc-sliders.module').then( m => m.ScSlidersPageModule)
+  },
 ];
 
 @NgModule({
