@@ -79,4 +79,31 @@ ion-title {
         font-size: 14px;
         font-weight: 600;
     }
+
 }
+
+.padding{padding: 0px 25px !Important;}
+
+
+/* ===== Start Button Deafult ===== */
+
+.btn_default {
+    position: absolute;
+    bottom: 9%;
+    width: 86%;
+    text-align: center;
+    display: grid;
+ }
+
+ .btn_active {
+    border-radius: 26px;
+    background-color: #00243c;
+    padding: 20px 0px;
+    font-family: 'Avenir-Roman';
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* =====  End Button Deafult ===== */
