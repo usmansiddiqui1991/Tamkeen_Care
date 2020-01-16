@@ -75,3 +75,87 @@
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 }
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: thin;
+  font-weight: 100;
+  src: url('../assets/fonts/Poppins-Thin.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: extra-light;
+  font-weight: 200;
+  src: url('../assets/fonts/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: light;
+  font-weight: 300;
+  src: url('../assets/fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: regular;
+  font-weight: 400;
+  src: url('../assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: medium;
+  font-weight: 500;
+  src: url('../assets/fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: semi-bold;
+  font-weight: 600;
+  src: url('../assets/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: bold;
+  font-weight: 700;
+  src: url('../assets/fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: extra-bold;
+  font-weight: 800;
+  src: url('../assets/fonts/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: black;
+  font-weight: 900;
+  src: url('../assets/fonts/Poppins-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: avenir-roman;
+  font-weight: 300;
+  src: url('../assets/fonts/Avenir-Roman.ttf');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: avenir-book;
+  font-weight: 500;
+  src: url('../assets/fonts/Avenir-Book.ttf');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: avenir-light;
+  font-weight: 100;
+  src: url('../assets/fonts/Avenir-Light.ttf');
+}
