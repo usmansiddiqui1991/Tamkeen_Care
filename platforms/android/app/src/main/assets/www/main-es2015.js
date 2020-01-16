@@ -468,6 +468,14 @@ const routes = [
         path: 'sc-welcome',
         loadChildren: () => __webpack_require__.e(/*! import() | sc-welcome-sc-welcome-module */ "sc-welcome-sc-welcome-module").then(__webpack_require__.bind(null, /*! ./sc-welcome/sc-welcome.module */ "./src/app/sc-welcome/sc-welcome.module.ts")).then(m => m.ScWelcomePageModule)
     },
+    {
+        path: 'sc-sliders',
+        loadChildren: () => __webpack_require__.e(/*! import() | sc-sliders-sc-sliders-module */ "sc-sliders-sc-sliders-module").then(__webpack_require__.bind(null, /*! ./sc-sliders/sc-sliders.module */ "./src/app/sc-sliders/sc-sliders.module.ts")).then(m => m.ScSlidersPageModule)
+    },
+    {
+        path: 'sc-otp',
+        loadChildren: () => __webpack_require__.e(/*! import() | sc-otp-sc-otp-module */ "sc-otp-sc-otp-module").then(__webpack_require__.bind(null, /*! ./sc-otp/sc-otp.module */ "./src/app/sc-otp/sc-otp.module.ts")).then(m => m.ScOtpPageModule)
+    },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
