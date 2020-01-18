@@ -4,7 +4,7 @@
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title><p align="center">Step 1/2</p></ion-title>
+    <ion-title><p align="center">Step 2/2</p></ion-title>
   </ion-toolbar>
 </ion-header>
 <!--End Header-->
@@ -13,17 +13,23 @@
 <ion-content>
   <section>
   <div class="row">
-    <div class="img_main"><img src="../../assets/img/step01.png" /></div>
+    <div class="img_main"><img src="../../assets/img/step02.png" /></div>
     <div class="reg_cnt padding">
-        <h1>Registration</h1>
-        <p>Enter your mobile number, we will send you OTP to create your account.</p>
+        <h1>Verification</h1>
+        <p>Enter 4 digit number that sent to <br>
+        <span>+966 50 806 1029</span></p>
     </div>
-    <div class="padding">
+    <div class="padding_cus">
       <div class="input_no">
-          <img src="../../assets/img/Saudi_flag.png" width="9%"/><span>(+966)</span>
-          <span><ion-input placeholder="50 xxx xxxx" type="number"></ion-input></span>
+        <ion-input type="text" class="otp_code" placeholder="0" maxlength="1"></ion-input>
+        <ion-input type="text" class="otp_code" placeholder="0" maxlength="1"></ion-input>
+        <ion-input type="text" class="otp_code" placeholder="0" maxlength="1"></ion-input>
+        <ion-input type="text" class="otp_code" placeholder="0" maxlength="1"></ion-input>
       </div>
     </div>
+  </div>
+  <div class="row">
+    <h4 class="resend">Re-send code in 0:30</h4>
   </div>
 </section>
 <!--Start Button Content-->
