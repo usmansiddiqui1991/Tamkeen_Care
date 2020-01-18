@@ -1,0 +1,109 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+
+.container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn_primary {
+    border-radius: 26px;
+    border: solid 1px #ee6623;
+    background-color: #ee6623;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #ffffff;
+    text-align: center;
+}
+
+.btn_secondary {
+    border-radius: 26px;
+    border: solid 1px #ee6623;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    background-color: transparent;
+    margin-top: 18px;
+}
+
+.bg-image {
+    background: url('assets/img/sc_welcome.png');
+    background-size: cover;
+  }
+
+ion-title {
+    font-family: 'Avenir';
+    p {
+        color: #00243c;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+}
+
+.padding{padding: 0px 25px !Important;}
+
+
+/* ===== Start Button Deafult ===== */
+
+.btn_default {
+    position: absolute;
+    bottom: 9%;
+    width: 86%;
+    text-align: center;
+    display: grid;
+ }
+
+ .btn_active {
+    border-radius: 26px;
+    background-color: #00243c;
+    padding: 20px 0px;
+    font-family: 'Avenir-Roman';
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* =====  End Button Deafult ===== */

@@ -1,0 +1,46 @@
+.reg_cnt {
+    
+    font-family: 'Avenir';
+    text-align: center;
+
+    h1 {
+        color: #00243c;
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    p {
+        color: #8d8d8d;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 300;
+        padding-bottom: 45px;
+    }
+}
+
+.input_no{
+    border: solid 1px #00243c;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-family: 'Avenir-Roman';
+    font-size: 14px;
+    font-weight: normal;
+    
+    img {
+        margin-right: 6px;
+    }
+
+    span {
+        margin-right: 10px;
+    }
+
+}
+
+.img_main {
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 18px;
+}
