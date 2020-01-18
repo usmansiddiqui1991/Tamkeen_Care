@@ -476,10 +476,6 @@ const routes = [
         path: 'sc-otp',
         loadChildren: () => __webpack_require__.e(/*! import() | sc-otp-sc-otp-module */ "sc-otp-sc-otp-module").then(__webpack_require__.bind(null, /*! ./sc-otp/sc-otp.module */ "./src/app/sc-otp/sc-otp.module.ts")).then(m => m.ScOtpPageModule)
     },
-    {
-        path: 'sc-otp-code',
-        loadChildren: () => __webpack_require__.e(/*! import() | sc-otp-code-sc-otp-code-module */ "sc-otp-code-sc-otp-code-module").then(__webpack_require__.bind(null, /*! ./sc-otp-code/sc-otp-code.module */ "./src/app/sc-otp-code/sc-otp-code.module.ts")).then(m => m.ScOtpCodePageModule)
-    },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
