@@ -16,10 +16,6 @@ const routes: Routes = [
     path: 'sc-otp',
     loadChildren: () => import('./sc-otp/sc-otp.module').then( m => m.ScOtpPageModule)
   },
-  {
-    path: 'sc-otp-code',
-    loadChildren: () => import('./sc-otp-code/sc-otp-code.module').then( m => m.ScOtpCodePageModule)
-  },
 ];
 
 @NgModule({
