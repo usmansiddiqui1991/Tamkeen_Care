@@ -4,11 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ScOtpCodePageRoutingModule } from './sc-otp-code-routing.module';
-
-import { ScOtpCodePage } from './sc-otp-code.page';
-import { type } from 'os';
-
 @NgModule({
   imports: [
     CommonModule,
