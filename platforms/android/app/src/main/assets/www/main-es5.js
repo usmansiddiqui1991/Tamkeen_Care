@@ -482,6 +482,10 @@ var routes = [
         path: 'sc-otp',
         loadChildren: function () { return __webpack_require__.e(/*! import() | sc-otp-sc-otp-module */ "sc-otp-sc-otp-module").then(__webpack_require__.bind(null, /*! ./sc-otp/sc-otp.module */ "./src/app/sc-otp/sc-otp.module.ts")).then(function (m) { return m.ScOtpPageModule; }); }
     },
+    {
+        path: 'sc-otp-code',
+        loadChildren: function () { return __webpack_require__.e(/*! import() | sc-otp-code-sc-otp-code-module */ "sc-otp-code-sc-otp-code-module").then(__webpack_require__.bind(null, /*! ./sc-otp-code/sc-otp-code.module */ "./src/app/sc-otp-code/sc-otp-code.module.ts")).then(function (m) { return m.ScOtpCodePageModule; }); }
+    },
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
