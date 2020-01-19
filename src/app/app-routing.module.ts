@@ -20,6 +20,10 @@ const routes: Routes = [
     path: 'sc-otp-code',
     loadChildren: () => import('./sc-otp-code/sc-otp-code.module').then( m => m.ScOtpCodePageModule)
   },
+  {
+    path: 'sc-dashboard',
+    loadChildren: () => import('./sc-dashboard/sc-dashboard.module').then( m => m.ScDashboardPageModule)
+  },
 ];
 
 @NgModule({

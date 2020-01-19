@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>sc_dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+</ion-content>
+
+<!--Start Ionic Bottom Menu-->
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button expand="block" routerLink="/sc-welcome" routerDirection="forward">
+      <ion-icon name="Home"></ion-icon>
+      <ion-label>Home</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button expand="block" routerLink="/sc-otp-code" routerDirection="forward">
+      <ion-icon name="contacts"></ion-icon>
+      <ion-label>Spare Parts</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button expand="block" routerLink="/sc-dashboard" routerDirection="forward">
+      <ion-icon name="map"></ion-icon>
+      <ion-label>Store Locator</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button expand="block" routerLink="/sc-otp" routerDirection="forward">
+      <ion-icon name="cart"></ion-icon>
+      <ion-label>Cart</ion-label>
+      <ion-badge>6</ion-badge>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
+<!--End Ionic Bottom Menu-->
