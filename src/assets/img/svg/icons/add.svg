@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="19.5" cy="19.5" r="19.5"></circle>
+        <filter x="-5.1%" y="-2.6%" width="110.3%" height="110.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="User-Flows-Final-(EN)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TC15" transform="translate(-75.000000, -593.000000)">
+            <g id="Group-3" transform="translate(76.000000, 593.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#EE6623" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M20.8808333,19.996875 L24.8108333,16.066875 C25.055,15.8229167 25.055,15.4270833 24.8108333,15.183125 C24.5666667,14.9389583 24.17125,14.9389583 23.9270833,15.183125 L19.9970833,19.113125 L16.066875,15.183125 C15.8227083,14.9389583 15.4272917,14.9389583 15.183125,15.183125 C14.9389583,15.4270833 14.9389583,15.8229167 15.183125,16.066875 L19.1133333,19.996875 L15.183125,23.926875 C14.9389583,24.1708333 14.9389583,24.5666667 15.183125,24.810625 C15.3052083,24.9325 15.4652083,24.9935417 15.625,24.9935417 C15.7847917,24.9935417 15.9447917,24.9325 16.066875,24.8104167 L19.9970833,20.8804167 L23.9270833,24.8104167 C24.0491667,24.9325 24.2091667,24.9935417 24.3689583,24.9935417 C24.52875,24.9935417 24.68875,24.9325 24.8108333,24.8104167 C25.055,24.5664583 25.055,24.170625 24.8108333,23.9266667 L20.8808333,19.996875 Z" id="Path" stroke="#FFFFFF" fill="#F4F4F4" fill-rule="nonzero" transform="translate(19.996979, 19.996771) rotate(-45.000000) translate(-19.996979, -19.996771) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
