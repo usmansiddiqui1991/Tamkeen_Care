@@ -1,12 +1,75 @@
+<!-- Start Header From Here -->
 <ion-header>
-  <ion-toolbar>
-    <ion-title>sc_dashboard</ion-title>
+  <ion-toolbar class="bg_primary">
+    <ion-buttons slot="start">
+      <ion-icon name="menu" class="menu_ic"></ion-icon>
+    </ion-buttons>
+    <ion-title >Dashboard</ion-title>
+    <ion-buttons slot="end"><ion-icon></ion-icon></ion-buttons>
   </ion-toolbar>
-</ion-header>
+</ion-header> 
+<!-- End Header Here -->
 
+<!-- Start Content Area -->
 <ion-content>
-
+  <!--Start First Section-->
+  <section class="bg_sec">
+    <div class="container">
+      <!--Start Row One-->
+      <div class="row">
+        <h4>Hi Muhammad!</h4>
+      </div>
+      <!--End Row One-->
+      <!--Two Row One-->
+      <div class="row">
+        <div class="loyalty_card">
+          <img src="../../assets/img/svg/membercard.svg">
+          <p><ion-icon name="star"></ion-icon>Update to Platanium</p>
+        </div>
+      </div>
+      <!--End Row One-->
+    </div>
+  </section>
+  <!--End First Section-->
+  <!--Start Second Section-->
+  <section class="sec_two">
+    <div class="container" style="padding-right: 0px;">
+      <div class="row">
+        <div class="ser_head">
+          <h3>Our Services<span>View All</span></h3>
+        </div>
+      </div>
+      <div class="row">
+        <ion-slides pager="true">
+          <ion-slide class="max_cs_width">
+            <div class="ser_box">
+              <img src="../../assets/img/svg/airc.svg" />
+              <h5>Air Condition</h5>
+              <ion-icon name="arrow-forward" class="arr_circle"></ion-icon>
+            </div>
+          </ion-slide>
+          <ion-slide class="max_cs_width">
+            <div class="ser_box">
+              <img src="../../assets/img/svg/wm.svg" />
+              <h5>Air Condition</h5>
+              <ion-icon name="arrow-forward" class="arr_circle"></ion-icon>
+            </div>
+          </ion-slide>
+          <ion-slide class="max_cs_width">
+            <div class="ser_box">
+              <img src="../../assets/img/svg/airc.svg" />
+              <h5>Air Condition</h5>
+              <ion-icon name="arrow-forward" class="arr_circle"></ion-icon>
+            </div>
+          </ion-slide>
+          
+        </ion-slides>
+      </div>
+    </div>
+  </section>
+  <!--End Second Section-->
 </ion-content>
+<!-- End Content Area -->
 
 <!--Start Ionic Bottom Menu-->
 <ion-tabs>

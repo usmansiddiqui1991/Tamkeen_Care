@@ -1,0 +1,101 @@
+ion-toolbar {--background: rgb(0, 36, 60); color: #ffffff;}
+
+ion-title {font-size: 16px;text-align: center;font-weight: 600;}
+
+ion-header {margin-bottom: -16px;}
+
+.bg_sec {
+    font-family: 'Poppins';
+    background: rgb(0, 36, 60);
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 26px;
+    height: 447px;
+
+    h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .loyalty_card{
+        margin-bottom: 10px;
+
+        ion-icon {
+            color: #d39e2d;
+            font-size: 1.4em;
+            vertical-align: middle;
+            align-items: center;
+            margin-right: 4px;
+        }
+
+        p {
+            font-size: 10px;
+            color: #f4f4f4;
+            margin-top: 0px;
+            padding-top: 5px;
+            margin-bottom: 0px;
+            text-align: right;
+            padding-bottom: 35px;
+        }
+    }
+
+}
+
+.sec_two {top: -25%; position: relative;}
+
+.ser_head {
+    font-family: 'Avenir';
+    font-weight: 500;
+    color: #fff;
+
+    h3 {
+        font-size: 16px;
+
+        span {
+            float: right;
+            font-size: 14px;
+            text-decoration: underline;
+            padding-right: 25px;
+        }
+
+    }
+
+}
+
+.max_cs_width {
+    background-color: #ffffff;
+    max-width: 143px;
+    height: 203px;
+    padding-top: 46px;
+    border-radius: 26px 0px 26px 0px;
+    box-shadow: 6px 6px 13px 2px rgba(2, 30, 58, 0.17);
+    margin-right: 15px;
+    
+
+    .ser_box {
+        font-family: 'Avenir';
+        font-weight: 900;
+        font-size: 16px;
+        margin-top: 26px;
+
+        img {
+            margin-bottom: 12px;
+        }
+
+        ion-icon {
+            background: #ee6623;
+            padding: 12px 12px;
+            border-radius: 100px;
+            margin-top: 26px;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        h5 {
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.swiper-container {height: 220px;}

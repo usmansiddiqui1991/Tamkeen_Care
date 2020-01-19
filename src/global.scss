@@ -26,10 +26,11 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 
-.container {
-    padding-left: 25px;
-    padding-right: 25px;
-}
+.container {padding-left: 25px; padding-right: 25px;}
+
+ion-title {font-family: 'Avenir-Roman'; font-size: 16px; font-weight: 600;}
+
+ion-toolbar {padding-left: 15px; padding-right: 15px;}
 
 .btn_primary {
     border-radius: 26px;
@@ -71,16 +72,6 @@
     background: url('assets/img/sc_welcome.png');
     background-size: cover;
   }
-
-ion-title {
-    font-family: 'Avenir';
-    p {
-        color: #00243c;
-        font-size: 14px;
-        font-weight: 600;
-    }
-
-}
 
 .padding{padding: 0px 25px !Important;}
 
@@ -126,4 +117,6 @@ ion-title {
     height: 24px;
     position: relative;
 }
+
+.menu_ic {font-size: 1.6em;}
 
