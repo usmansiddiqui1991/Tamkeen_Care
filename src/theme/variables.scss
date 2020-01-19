@@ -76,6 +76,8 @@
   --ion-color-light-tint: #f5f6f9;
 }
 
+a:hover {color: #ee6623 !important;}
+
 @font-face {
   font-family: 'Poppins';
   font-style: thin;
@@ -168,3 +170,29 @@
 
 .header-ios ion-toolbar:last-child {--border-width: 0 0 0px;}
 
+/*Start Bottom Menu SCSS*/
+
+ion-tab-bar {
+  height: 80px;
+  box-shadow: 0 -3px 20px 0 rgba(45, 45, 45, 0.14);
+  background-color: #ffffff;
+}
+
+ion-label {
+  font-family: 'Poppins';
+  font-weight: 500;
+  letter-spacing: 0.13px;
+  color: #6f8098;
+}
+
+ion-badge {
+  background-color: #ee6623;
+  font-family: 'Avenir';
+  text-align: center;
+  color: #f4f4f4;
+  font-size: 10px;
+  padding: 4px 6px;
+  border-radius: 100px;
+}
+
+/*End Bottom Menu SCSS*/
