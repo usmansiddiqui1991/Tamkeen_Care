@@ -25,12 +25,8 @@ const routes: Routes = [
     loadChildren: () => import('./sc-dashboard/sc-dashboard.module').then( m => m.ScDashboardPageModule)
   },
   {
-    path: 'fawad',
-    loadChildren: () => import('./fawad/fawad.module').then( m => m.FawadPageModule)
-  },
-  {
-    path: 'tghulam',
-    loadChildren: () => import('./tghulam/tghulam.module').then( m => m.TghulamPageModule)
+    path: 'cart',
+    loadChildren: () => import('./cart/cart.module').then( m => m.CartPageModule)
   },
 ];
 
