@@ -1,0 +1,118 @@
+ion-toolbar {--background: rgb(0, 36, 60); --padding-top: 46px; --padding-bottom: 60px; --color: #ffffff;}
+
+ion-title {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Avenir-Roman";
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -18px;
+}
+
+.rec_radius {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px 0px 0px 0px;
+    margin-top: -35px;
+    background-color: #ffffff;
+    z-index: 9999999999;
+    position: absolute;
+}
+
+.sec_pro {
+    text-align: center;
+
+    ion-icon{
+      width: 100%;
+      height: 150px;     
+    }
+
+    h2 {
+        font-size: 20px;
+        font-family: 'Avenir';
+        font-weight: 500;
+        color: #032a46;
+        margin-top: 0px;
+    }
+
+    p {
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: #9E9E9E;
+        line-height: 1.38;
+        margin-top: 0px;
+    }
+
+}
+
+.max_cs_width {
+    background-color: #ffffff;
+    max-width: 143px;
+    height: 203px;
+    padding-top: 46px;
+    border-radius: 26px 0px 26px 0px;
+    box-shadow: 6px 6px 13px 2px rgba(2, 30, 58, 0.17);
+    margin-right: 15px;
+    
+
+    .ser_box {
+        font-family: 'Avenir';
+        font-weight: 900;
+        font-size: 16px;
+        margin-top: 26px;
+
+        img {
+            margin-bottom: 12px;
+            width: 100%;
+            height: 90px;
+        }
+
+        ion-icon {
+            background: #ee6623;
+            padding: 12px 12px;
+            border-radius: 100px;
+            margin-top: 26px;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        h5 {
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.swiper-container {height: 220px;}
+
+
+/* A bit of demo styles */
+
+.demo-swiper .swiper-slide {
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+  }
+  .demo-swiper .swiper-slide {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #fff;
+  }
+  .demo-swiper {
+    margin: 0px 0 35px;
+    font-size: 18px;
+    height: 120px;
+  }
+  .demo-swiper.demo-swiper-auto .swiper-slide {
+    width: 85%;
+  }
+  .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+    width: 70%;
+  }
+  .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+    width: 30%;
+  }
