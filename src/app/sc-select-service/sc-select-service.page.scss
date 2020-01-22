@@ -85,34 +85,14 @@ ion-title {
 
 .swiper-container {height: 220px;}
 
+.ser_head {
+    color: #3f3e3e;
+    font-family: 'Avenir';
+    text-align: center;
 
-/* A bit of demo styles */
-
-.demo-swiper .swiper-slide {
-    font-size: 25px;
-    font-weight: 300;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    color: #000;
-  }
-  .demo-swiper .swiper-slide {
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    background: #fff;
-  }
-  .demo-swiper {
-    margin: 0px 0 35px;
-    font-size: 18px;
-    height: 120px;
-  }
-  .demo-swiper.demo-swiper-auto .swiper-slide {
-    width: 85%;
-  }
-  .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
-    width: 70%;
-  }
-  .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
-    width: 30%;
-  }
+    h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+}

@@ -1,4 +1,5 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { default as Swiper } from 'swiper';
 
 @Component({
   selector: 'app-sc-select-service',
@@ -7,7 +8,6 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 })
 export class ScSelectServicePage implements OnInit {
 
-
   constructor() { }
 
   ngOnInit() {
@@ -15,3 +15,4 @@ export class ScSelectServicePage implements OnInit {
 
 
 }
+
